@@ -1,0 +1,124 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FineAgedWorld",
+				"abbreviation": "FAW",
+				"full": "Fine Aged World",
+				"version": "5.24",
+				"authors": [
+					"Horrorspy"
+				],
+				"convertedBy": [
+					"Horrorspy"
+				],
+				"color": "00fbff",
+				"colorNight": "460066"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Mosquito",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"source": "FineAgedWorld",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "1d6 - 4",
+				"average": 1
+			},
+			"speed": {
+				"walk": 5,
+				"swim": 0,
+				"fly": 40
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 3,
+			"int": 3,
+			"wis": 3,
+			"cha": 3,
+			"passive": 10,
+			"cr": "0",
+			"traitTags": [
+				"Amorphous",
+				"Fey Ancestry",
+				"Incorporeal Movement"
+			],
+			"shortName": true,
+			"level": 1,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"stealth": "+7"
+			},
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The Mosquito can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Buzz",
+					"entries": [
+						"Any creature within 10 ft of the Mosquito need to make a Constitution saving throw or lose their {@status Concentration|XPHB} if they have it active, if the target succeeds the saving throw they are immune to the Buzz ability for the next 24 hours"
+					]
+				},
+				{
+					"name": "Insect",
+					"entries": [
+						"The Mosquito can occupy another creatures' space and vice versa"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target. {@h} 1 piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"familiar": true,
+			"fluff": {
+				"entries": [
+					"Did you know that only female mosquitos drink blood to breed, the male mosquitos usually eat fruits, these statblocks can be used for other creatures like a tick or house fly.",
+					"Familiar:you can summon a mosquito using the Haunting Mosquito spell"
+				]
+			},
+			"token": {
+				"name": "",
+				"source": ""
+			},
+			"damageTags": [
+				"P"
+			]
+		}
+	]
+}
