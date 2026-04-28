@@ -1,0 +1,2924 @@
+{
+	"siteVersion": "2.26.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FineAgedWorld",
+				"abbreviation": "FAW",
+				"full": "Fine Aged World",
+				"version": "5.24",
+				"url": "https://github.com/Horrorspy/Fine-Aged-World/blob/main/RPGN%20FAW.json",
+				"authors": [
+					"Horrorspy"
+				],
+				"convertedBy": [
+					"Horrorspy"
+				],
+				"color": "09edf1",
+				"colorNight": "560085",
+				"edition": "classic"
+			}
+		],
+		"dateAdded": 1775726101,
+		"dateLastModified": 1775726101,
+		"edition": "classic"
+	},
+	"monster": [
+		{
+			"name": "Abaasy",
+			"shortName": true,
+			"alias": [
+				"Abaahy, Abasy"
+			],
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 40
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 6,
+			"con": 10,
+			"int": 14,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"deception": "+7",
+				"insight": "+7",
+				"perception": "+7",
+				"persuasion": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				{
+					"vulnerable": [
+						{
+							"special": "Iron weapons"
+						}
+					]
+				},
+				{
+					"vulnerable": [
+						{
+							"special": "Salt"
+						}
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Charm",
+					"entries": [
+						"One humanoid the Abaasy can see within 30 feet of it must succeed on a {@dc 13} Wisdom saving throw or the magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the Abaasies' verbal or telepathic commands. If the targets suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to the Abaasies' Charm for the next 24 hours.",
+						"The Abaasy can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shape-Shift",
+					"entries": [
+						"The Abaasy shape-shifts to resemble a Medium or Small Humanoid or back into its true form. Its game statistics are the same in each form. Any equipment it's wearing or carrying isn't transformed."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban",
+				"planar (abyss)",
+				"planar (shadowfell)"
+			],
+			"familiar": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "file:///C:/Users/Dario/Downloads/token_1.png"
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"fluff": {
+				"entries": [
+					"Coming from the Russian or more specifically Sakha Yakut mythology, these Creatures are demons who are beings of the dead usually dwelling in graveyards and deserted places such as ghost towns. These things have a humanoid body, key difference is their pale white skin, cyclopian eye, one leg and one arm usually on their left side. Known for causing sexual manifestations and madness. Summoners can summon them via blood sacrifice"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/lore-and-order/images/9/99/Abaasy.jpg/revision/latest?cb=20180517170307"
+						},
+						"title": "Copyright: Compendium of Arcane Beasts and Critters",
+						"credit": "Tas"
+					}
+				]
+			}
+		},
+		{
+			"name": "Abaasy Dragon",
+			"shortName": "Dragon",
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 18,
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 85",
+				"average": 178
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 21,
+			"int": 14,
+			"wis": 11,
+			"cha": 19,
+			"save": {
+				"dex": "+5",
+				"con": "+10",
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+10",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"immune": [
+				"fire"
+			],
+			"conditionImmune": [
+				{
+					"special": "Burning"
+				}
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Two-Headed",
+					"entries": [
+						"The Dragon has advantage on Wisdom (Perception) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes six attacks: two with its bite and four with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Fire Breath (Recharge 3-6).",
+					"entries": [
+						"Each dragon head exhales fire in a 30-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage and get the Burning condition on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban",
+				"planar (abyss)",
+				"planar (shadowfell)"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"fluff": {
+				"entries": [
+					"Not much is known about the Abaasy Dragon other than the fact it's anotomy is unique having two heads, four legs and two tails as if morphed into one monstrous dragon"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/lore-and-order/images/9/99/Abaasy.jpg/revision/latest/scale-to-width-down/1000?cb=20180517170307"
+						},
+						"title": "Copyright: Compendium of Arcane Beasts and Critters",
+						"credit": "Tas"
+					}
+				]
+			}
+		},
+		{
+			"name": "Abnauayu",
+			"shortName": "ape",
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 28
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"athletics": "+5",
+				"nature": "+4",
+				"perception": "+3",
+				"sleight of hand": "+4",
+				"stealth": "+4",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands common but can't speak it"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ape makes two fist attacks"
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 25/50 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"the Abnauayus are Russian crypts similar to the bigfoot and being very closely related to humans, their fur Is dark orange. Standing at around 5 to 7 feet tall with a strong build they're also intelligent enough to understand communication but not enough to speak it."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/bUaMptU_d.webp?maxwidth=760&fidelity=grand"
+						},
+						"title": "An Abnauayu exiting the forest, near civilization",
+						"credit": "Crusader1307"
+					}
+				]
+			}
+		},
+		{
+			"name": "Abura-Akago",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 2,
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "3d8 - 3",
+				"average": 10
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 20,
+			"con": 8,
+			"int": 8,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"sleight of hand": "+7",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"cold",
+				"lightning",
+				"thunder",
+				{
+					"special": "Bludgeoning, Piercing and Slashing from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"restrained",
+				{
+					"special": "Burning, Decaying"
+				}
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The Abura-Akago can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the Abura-Akago can take the Hide action as a Bonus Action"
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight the Abura-Akago has disadvantage on attack rolls. ability checks and saving throws."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Abura-Akago can use its action to turn into a fireball, or back into its true form. Any equipment it is wearing or carrying is transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Fire touch (Fireball Form Only)",
+					"entries": [
+						"If the Abura-Akago enters in a creature's space, the creature must make a {@dc 15} Dexterity saving throw or get 5 times the ammount of oil it consumes, fire damage, if it hasn't consumed any oil it will deal only 5 fire damage and apply the Burning condition "
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban",
+				"planar (shadowfell)"
+			],
+			"traitTags": [
+				"Amorphous",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"fluff": {
+				"entries": [
+					"in the Japanese legend these mischievous infants are known for their lust for oil from lamps, they travel in a fireball like appearance but their true form shows a baby. Though they aren't aggressive that doesn't mean they are harmless as their fireball form carries a deadly amount of fire in it to burn anyone alive"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/cryptidz/images/a/a1/Abura-akago.jpg/revision/latest?cb=20170505164724"
+						},
+						"title": "An Abura-Akago dancing while consuming oil",
+						"credit": "Pandacubs"
+					}
+				]
+			}
+		},
+		{
+			"name": "Adaro",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 2,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"note": "(adaro)"
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 40
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 13,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 15 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Aquan"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The Adaro can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range, or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"AQ"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"Violent spirits of dead people who roam the nearby Solomon Islands in Melanesias' ocean waters, They often seek out oblivious fishermen to kill by throwing fish at them. They are depicted as half human half shark creatures with some even having a sword fish horn"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/mythological-supernatural-and-fantasy-creatures/images/0/0c/Char_adaro.jpg/revision/latest?cb=20121111073045"
+						},
+						"title": "LDAustinAct.com",
+						"credit": "Artermisno1"
+					}
+				]
+			}
+		},
+		{
+			"name": "Adlet",
+			"shortName": true,
+			"alias": [
+				"Erqigdlet"
+			],
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				{
+					"special": "bludgeoning, piercing and slashing from nonmagical attacks not made with silvered weapons"
+				}
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The Adlet has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Adlet makes two attacks, only one of which can be with a spear"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage in melee, or 2 ({@damage 1d4}) piercing damage at range."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d6}) piercing damage in melee, or 3 ({@damage 1d6}) piercing damage at range, or 4 ({@damage 1d8}) piercing damage if used with both hands."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"spear|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"lone lycanthropes that are half man half dog from the Inuit folklore, Greenland. Feared in the arctic wastelands the hunt humans, lusting for blood, their head is a human and anything below Is dog like but standing on it's hind legs"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/cryptidz/images/d/dd/Adlet_2.png/revision/latest?cb=20250812172506"
+						},
+						"title": "An Adlet guardian two boats",
+						"credit": "RatmanCryptid"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ahuizotl",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 6,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 35
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 12,
+			"int": 12,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The Ahuizotl has advantage on attack rolls against any creature it has {@status surprised}."
+					]
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The Ahuizotl has advantage on Wisdom (Perception) checks that rely on sight or smell"
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The Ahuizotl can mimic child crying. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Ahuizotl makes two attacks. One Rend attacks and one Tentacle"
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 feet. Hit; 5 ({@damage 1d6 + 2}) Slashing damage. If target is a Large or smaller creature, it must succeed on a {@dc 13} Strenght saving throw or have the {@condition prone} condition"
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"traitTags": [
+				"Ambusher",
+				"Keen Senses",
+				"Mimicry"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"fluff": {
+				"entries": [
+					"The Ahuizotl are dog like Aztec creatures that roam near shallow waters, their primary target are fishermen and they mimic the sound of a child crying, trying to lure their victims closer. Once they do the ahuizotl attacks them with it's 5 claws, and when killed the creature will eat the victims eyes, teeth and nails, often times it will leave the rest if the body to float to lure someone to retrieve it and then the process repeats"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/forgottenrealms/images/6/64/Ahuizotl-3e.jpg/revision/latest?cb=20200724100407"
+						},
+						"title": "An Ahuizotl exiting water insearch for prey",
+						"credit": "Ir'revrykal"
+					}
+				]
+			}
+		},
+		{
+			"name": "Aigamuxa",
+			"shortName": true,
+			"alias": [
+				"Aigamuchab"
+			],
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 9,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": {
+					"number": 40,
+					"condition": "20 if using hands"
+				},
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 22,
+			"con": 14,
+			"int": 12,
+			"wis": 11,
+			"cha": 6,
+			"save": {
+				"dex": "+9"
+			},
+			"skill": {
+				"stealth": "+12",
+				"perception": "+3",
+				"acrobatics": "+9"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The Aigamuxa has advantage on attack rolls against any creature it has {@status surprised}."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the Aigamuxa has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Aigamuxa scores against a {@status surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the Aigamuxa is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Aigamuxa instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The Aigamuxa deals an extra 13 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft of an ally of the Aigamuxa that isn't incapacitated and the Aigamuxa doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Unique Build",
+					"entries": [
+						"Due to their eyes being on their feet thry usually walk on their hands which would put their movement speed at 20 feet but if standing up straight it would be 40 feet but they would have the {@condition blinded} condition"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"the Aigamuxa makes two Bite attacks"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"traitTags": [
+				"Ambusher",
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"A terrifying humanoid figure from the Khoikhoi mythology that looks like a regular person but the key feature is its lack of eyes, where are they one might ask, well they are located on their heels, because of this they are forced to be very dexterous and balance their body on their hands, though their unique appearance is not one to be feeling bad for, because these people are ruthless, violent and unforgiving, hunting humans like it's a simple rabbit this monstrosity chases them down and kill them instantly without the victims even knowing what happened to them, their weakness is their own build as their eyes need to see they move slow, the only way for them to catch up Is to start using their feet, purposely blinding themselves"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/cryptidz/images/b/be/Aigamuxa_%282%29.jpg/revision/latest?cb=20210724210707"
+						},
+						"title": "One of the ways an Aigamuxa stands on it's hands",
+						"credit": "Chaim Garcia"
+					}
+				]
+			}
+		},
+		{
+			"name": "Aitvaras",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 2,
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "2d4",
+				"average": 5
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 14,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"investigation": "+4",
+				"perception": "+4",
+				"stealth": "+6",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The Aitvaras doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Aitvaras can use its action to polymorph into a flying snake or a black cat, or back into its' original form. its' statistics, other than its' size are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its' true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak (True form only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Bite (Flying Snake form only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage, plus 5 ({@damage 2d4}) Poison damage."
+					]
+				},
+				{
+					"name": "Scratch (Black Cat form only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1  slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Flyby",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Aitvaras are Lithuanian mythological birds born from Old roosters or black chickens which are between the ages of 7 to 15 years old, These creatures true form is a black rooster with fire on them, though not always the case as they can become a flying snake and a black cat at some points, They live in a commoners home refusing to leave but they can be persuaded to protect the home. These creatures steal from greedy unthankful people and give to the poor people, usually giving coin, Wheat, flax. Though some kill them to get rid of the paranoia of being outted as a thief."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/warriorsofmyth/images/f/f1/Aitvaras_by_silni-d4bzn9q-1-.jpg/revision/latest?cb=20121212180508"
+						},
+						"title": "An Aitvaras giving charity to those in need",
+						"credit": "Shadowulf1"
+					}
+				]
+			}
+		},
+		{
+			"name": "Alkonost",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "7d8 + 7",
+				"average": 38
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 12,
+			"dex": 13,
+			"con": 12,
+			"int": 10,
+			"wis": 14,
+			"cha": 18,
+			"skill": {
+				"performance": "+8",
+				"persuasion": "+6"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan",
+				"Undercommon"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Alkonost makes two Claw attacks"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Luring Song.",
+					"entries": [
+						"The Alkonost sings a magical melody. Every humanoid and Giant within 300 ft. of the Alkonost that can hear the song must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} until the song ends. The Alkonost must take a bonus action on its' subsequent turns to continue singing. It can stop singing at any time. The song ends if the Alkonost is {@condition incapacitated}. While {@condition charmed} by the Alkonost, a target is {@condition incapacitated} and ignores anything but the singing. If the {@condition charmed} target is more than 5 ft away from the Alkonost, it must move on its turn towards the Alkonost by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit and whenever it takes damage from a source other than the Alkonost, a target can repeat saving throws at advantage. A creature can also repeat the saving throw at the end of each of its' turns. Ending the {@condition charmed} condition on a success"
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S",
+				"U"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"fluff": {
+				"entries": [
+					"An East Slavic creature with a head of s beautiful woman and the body of a bird, these beautiful creatures are similar to Harpies but not as evil, they love to sing and love to socialize with creatures as they sing, Their eggs hatch within 1d8 days, if she sits on a tree which has fruit said fruit can be used for healing of 1 hit point"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/warriorsofmyth/images/b/b7/Vasnetsov_Sirin_Alkonost_%28Alkonost_separated%29.jpg/revision/latest/scale-to-width-down/1000?cb=20110312184916"
+						},
+						"title": "Alkonost singing",
+						"credit": "Shadowulf1"
+					}
+				]
+			}
+		},
+		{
+			"name": "Alma",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 6,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "7d10 + 14",
+				"average": 57
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 14,
+			"int": 3,
+			"wis": 12,
+			"cha": 3,
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "-2",
+				"nature": "-2",
+				"perception": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its' turn, the Alma can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its' next turn"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Alma makes two Rend attacks"
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 25/50 ft., one target. {@h}8 ({@damage 1d6 + 5}) Bludgeoning damage in melee, or 8 ({@damage 1d6 + 5}) damage at range."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain"
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"These creatures originate from Central Asia and are anti social beings described as apes, bears and humans some even describe it as camels, though in originality it's a mythological creature known for its terrifying strength and appearance they like to live far far away, though there are some Like Seme who became tame after a while of living with civilized people",
+					"habitat:Forest, Mountain"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://dinoanimals.com/wp-content/uploads/2020/11/Alma-1.jpg"
+						},
+						"title": "An Alma hunting"
+					}
+				]
+			}
+		},
+		{
+			"name": "Alma Bilku",
+			"shortName": "Alma",
+			"isNpc": true,
+			"source": "FineAgedWorld",
+			"level": 14,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "14d12 + 14",
+				"average": 105
+			},
+			"speed": {
+				"walk": 60,
+				"burrow": 20,
+				"climb": 40
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 12,
+			"int": 16,
+			"wis": 16,
+			"cha": 19,
+			"save": {
+				"dex": "+8"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"athletics": "+8",
+				"arcana": "+7",
+				"deception": "+12",
+				"performance": "+12",
+				"perception": "+7",
+				"persuasion": "+12",
+				"stealth": "+12"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 20 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Thieves' cant",
+				"Thri-kreen",
+				"telepathy"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Alma casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+					],
+					"footerEntries": [
+						"At will: Dancing Lights, Faerie Fire, Mage Armor (included in AC), Mage Hand, Minor Illusion",
+						"1/day each: Befuddlement, Darkness, Detect Thoughts, Fly, Sending, Shatter (level 7 version), Synaptic Static"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"Alma's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Alma can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Alma makes two attacks "
+					]
+				},
+				{
+					"name": "Slice",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shield (2/Day)",
+					"entries": [
+						"Alma casts Shield in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"OTH",
+				"TC",
+				"TP"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Alma is the oldest child in the Bilku family, She is her mothers favorite and that's very much noticible. Alma is not a people pleaser, rather a general, a woman of power given by fear and supression. Before the Wedding fails Alma and her mother escape and go to set raids on other cities but after her mother dies she hides in Luping's Black Market as a priest of \"Timehand the World Serpent\" however Timehand is a lizard, not a centepede, after that discovery is apperant she will escape from the party and the whole of the black market will be alerted of this event before being also backstabbed by Alma, After the party catches up to Alma they would discover 4 Dunguards awaiting them and her escaping, little did she know she went to Ard ariyah's Fire reagion, getting set ablaze and dying a horrible and painful death"
+				]
+			}
+		},
+		{
+			"name": "Alp",
+			"shortName": true,
+			"group": [
+				"Defenders of Gods"
+			],
+			"source": "FineAgedWorld",
+			"level": 7,
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "9d8 + 9",
+				"average": 49
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 13,
+			"int": 14,
+			"wis": 16,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"insight": "+5",
+				"performance": "+4",
+				"persuasion": "+4",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"cold",
+				{
+					"special": "bludgeoning, piercing and slashing from nonmagical/nonsilver weapons"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned",
+				{
+					"special": "Burning"
+				}
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"Sylvan"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Alp can use its' action to polymoprh into a cat, dog, pig, snake or white butterfly or back to its' true form. Its statistics, other than its' size and movement, are the same in each form. Any equipment it is wearing or carrying isn't transformed. A key feature is any creature it polymorphs into has a uniborn"
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the Alp's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Alp has advantage on saving throw against spells and other magical effects"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft, one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, and 2 ({@damage 1d4}) necrotic damage, the target reduces its' max hit points equal to the damage and the alp heals itself the equal amount "
+					]
+				},
+				{
+					"name": "Nightmares",
+					"entries": [
+						"{@atk ms} {@hit 5} to hit, reach 5 ft, one target. {@h}7 ({@damage 1d8 + 3}) Physic damage. The Target must succeed a {@dc 15} Wisdom or be {@condition Paralyzed|XPHB} and {@condition Frightened|XPHB}"
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The Alp magically turns inivisible until it attacks, or until its {@status Concentration|XPHB} on the spell ends. Any equipment the Alp wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"S"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MA",
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Alps are very confusing creatures, as they look like fiends, act like Fey's but originate like undead, but in actuality they are fey creatures for their unique method of working. Alp are most commonly Male and look similar to an Imp but they wear a Tarnkappe which grants them most of the powers they possess. They break into people's houses, to  drink blood from the targeuts teat usually being women as they like the taste of breast milk and haunt their nightmares by sitting on their chest, if the target is awake they cannot move due to the sheer weight of the Alp which isn't much but they become paralyzed, the most common ways to protect yourself from an alp are:",
+					"putting a broom stick under a pillow, hanging iron horseshoes on bedposts, placing shoes against the bed to make the toes face the entrance (usually a door), placing a mirror on your chest, having a steel cross, having someone watch over you as you sleep, plugging any holes like mouse holes or key holes, to keep them in or out of the room.",
+					"if you already have an alp in your interior you can get rid of it by:",
+					"promising it a gift or coffee in the morning, shoving a lemon in its mouth, convincing them to leave."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Nightmare_%281790-1791%29_-_Johann_Heinrich_Füssli.jpg/960px-The_Nightmare_%281790-1791%29_-_Johann_Heinrich_Füssli.jpg"
+						},
+						"title": "An alp sitting on the sleeper's chest, with a mare staring through the background.",
+						"credit": "Johann Heinrich Füssli"
+					}
+				]
+			}
+		},
+		{
+			"name": "Colossus",
+			"shortName": true,
+			"group": [
+				"Warfare Unit"
+			],
+			"source": "FineAgedWorld",
+			"level": 15,
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"condition": "(natural armor)"
+				}
+			],
+			"hp": {
+				"formula": "30d12 + 90",
+				"average": 285
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 16,
+			"int": 15,
+			"wis": 16,
+			"cha": 10,
+			"save": {
+				"wis": "+7",
+				"int": "+6",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+10",
+				"athletics": "+8",
+				"religion": "+6",
+				"medicine": "+7"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common plus two other languages"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Spell Storing",
+					"entries": [
+						"When a Colossus witnesses a spell within 120 ft of itself it will remember it for an hour, if the spell deals damage to a target they will automatically cast it with their attack, targeting the same target. Any Area of effect spells the colossus casts will not harm or effect them"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"familiar": true,
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"fluff": {
+				"entries": [
+					"Colossuses are the pinnacle of a wizards work, either being built or being summoned they might be one of the best but there still exist creatures stronger than it, Like their brother the Giant or the upper class Titans and Storm Titans. The Colossus costs between  2700 gold and 1 gem-4670 gold and 1 dragonsteel"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/mightandmagic/images/e/e1/Creature_academy_Colossus.jpg/revision/latest?cb=20230605170744&path-prefix=en"
+						},
+						"title": "A colossus in an intimidating stance",
+						"credit": "USACHENKO ANTON"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cowboy",
+			"source": "FineAgedWorld",
+			"level": 2,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"Cowboy Outfit"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Revolver",
+					"entries": [
+						"{@atk rw} {@hit +2} to hit, range 40/120 ft., one target. {@h}9 ({@damage 2d8}) Piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"urban"
+			],
+			"attachedItems": [
+				"revolver|dmg"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"Cowboys are folks who dedicated their life to the wild west, as the law is very iffy due to everyone carrying a gun every commoner are cowboys as anyone is armed with a firearm, most commonly the cattleman"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ValdaGunslinger/00-002.the-gunslinger.webp"
+						},
+						"title": "Cowboys go on to become Gunslingers"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dunguard",
+			"shortName": true,
+			"source": "FineAgedWorld",
+			"level": 13,
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"condition": "(natural armor)"
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 75",
+				"average": 142
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"intimidation": "+3",
+				"perception": "+3",
+				"athletics": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"radiant"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Thri-kreen"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Stench",
+					"entries": [
+						"{@actSave con} {@dc 15}, any creature (other than a dunguard) that starts its turn in a 5-foot Emanation originating from the dunguard. {@actSaveFail} The target has the {@condition Poisoned|XPHB} condition until the start of its next turn. {@actSaveSuccess} The target is immune to the Stench of all dunguards for 1 hour."
+					]
+				},
+				{
+					"name": "Radioactive",
+					"entries": [
+						"Any target that is hit must make a {@actSave con} {@dc 18} or get the radioactive Condition, radioactive creatures have to throw any d20s with a disadvantage and take {@damage 1d4} Necrotic damage and reduces their Max Hit poitns equal to that number every round anyone within 10 feet of the creature must make a {@actSave con} {@dc 10}, if above a 5 but below a 10 they are {@condition Poisoned|XPHB} but if it's less than 5 they are Radioactive."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The dunguard has Advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dunguard makes two Glaive Attacks"
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) Slashing damage and 3 ({@damage 1d6}) Poison damage and 3 ({@damage 1d6}) Necrotic damage. On a miss the person only takes 5 Slashing damage 2 ({@damage 1d4}) Poison damage and 2 ({@damage 1d4}) Necrotic damage and doesn't trigger the Radioactive ability."
+					]
+				}
+			],
+			"attachedItems": [
+				"glaive|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Farmer Mike",
+			"shortName": "Mike",
+			"isNpc": true,
+			"source": "FineAgedWorld",
+			"level": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Pitchfork",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit , reach 5 ft, one target. Hit 3 ({@damage 1d6}) piercing damage"
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"A grumpy old fart who lost his wife Ronda Back-breaker after she gave birth to their son Arnold Back-breaker, he works on the White Wheat Farm and is raising his biological son Arnold Back-breaker, He is very protective over his only family, his son"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1396344842770190466/1478642091620831274/IMG_20260304_073528.jpg?ex=69a92442&is=69a7d2c2&hm=43280ae6cb82ed5ad2ca8ecf043b7cc1a57076e3d2041b80b4bd7b3ae6605d3e&=&format=webp&width=486&height=930"
+						},
+						"title": "Farmer Mike sleeping on the job",
+						"credit": "Horrorspy"
+					}
+				]
+			}
+		},
+		{
+			"name": "Giant",
+			"group": [
+				"Warfare Unit"
+			],
+			"source": "FineAgedWorld",
+			"level": 11,
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"condition": "(natural armor)"
+				}
+			],
+			"hp": {
+				"formula": "13d12 + 65",
+				"average": 150
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 9,
+			"con": 20,
+			"int": 10,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+3",
+				"athletics": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Mind Spell Immunity",
+					"entries": [
+						"any spells that requires a Wisdom saving throw from the Giant is automatically succeeded"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Sword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) lightning damage, or 16 ({@damage 2d10 + 5}) lightning damage if used with both hands."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Giants are similar to Colossuses for being one of the strongest units and sharing a common ranked authority that being the Titans. Giants unlike Colossus are not made of magic and are pure flesh and blood, Costing 2000 gold and 1 gem"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://heroes.thelazy.net//images/4/4c/Giant.jpg"
+						},
+						"title": "A giant killing several people",
+						"credit": "George Almond"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hothead",
+			"alias": [
+				"Blacksmith"
+			],
+			"isNpc": true,
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"note": "(Fire Genasi)"
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"condition": "(half plate)"
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"skill": {
+				"intimidation": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"gear": [
+				{
+					"item": "https://5e.tools/items.html#javelin_xphb",
+					"quantity": 1,
+					"displayName": "Javelin"
+				},
+				{
+					"item": "https://5e.tools/items.html#javelin_xphb",
+					"quantity": 1,
+					"displayName": "Light hammer"
+				},
+				{
+					"item": "https://5e.tools/items.html#shortsword_xphb",
+					"quantity": 1,
+					"displayName": "Shortsword"
+				},
+				{
+					"item": "https://5e.tools/items.html#half%20plate%20armor_xphb",
+					"quantity": 1,
+					"displayName": "Half plate"
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Hothead casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+					],
+					"footerEntries": [
+						"At will:Produce Flames",
+						"3/day:Burning Hands",
+						"1/day:flame blade"
+					],
+					"ability": "cha"
+				}
+			],
+			"action": [
+				{
+					"name": "Javelin (PHB'24)",
+					"entries": [
+						"{@atkr mw,rw} {@hit +3}, reach 5 ft. or range 30/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) Piercing damage."
+					]
+				},
+				{
+					"name": "Light Hammer (PHB'24)",
+					"entries": [
+						"{@atkr mw,rw} {@hit +3}, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) Bludgeoning damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": ""
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"A fire genasi with anger issues, more like fury issues, but thanks to that heat his body produces such warmth that his forge is used as a cooler. Hothead is a blacksmith in Blackspot, located in Midmud like his brother Dungun the steam he's successful in his field with his people."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1396344842770190466/1490986769536258058/IMG_20240224_185433.jpg?ex=69d60d23&is=69d4bba3&hm=c42b50ae5324c1452241c4d5ce54b89f6b8a1abe8c373b2a2ae9b0e391444a03&=&format=webp&width=700&height=930"
+						},
+						"title": "Hothead",
+						"credit": "Horrorspy"
+					}
+				]
+			}
+		},
+		{
+			"name": "HutHunt",
+			"shortName": true,
+			"source": "FineAgedWorld",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Bugbear"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 5",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"animal handling": "+2",
+				"nature": "+1",
+				"stealth": "+4",
+				"survival": "+2",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the HutHunt hits with it."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The HutHunt has advantage on saving throws against being {@condition charmed}, and magic can't put the HutHunt to sleep."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The HutHunt has advantage on an attack roll against a creature if at least one of the HutHunts' allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the HutHunt surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 6 ({@damage 2d6}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage"
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range, or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute",
+				"Fey Ancestry",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"Hunters who are from HutHut, they are most always Bugbears because of their good reach, stealth and sheer strength, though they are strong they aren't powerful as they avoid anything that can be deadly like dinosaurs or the False Prey"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1396344842770190466/1483152579881078947/IMG_20260304_072152.jpg?ex=69b98cfa&is=69b83b7a&hm=2cd4211da7049f0ffaf2f449cbe108db456c4d8feea376d9d5ac83f24e86d11e&=&format=webp&width=780&height=800"
+						},
+						"title": "A male HutHunt spearman and a female HutHunt Archer",
+						"credit": "Horrorspy"
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1396344842770190466/1483152580170354852/IMG_20260304_072228.jpg?ex=69b98cfa&is=69b83b7a&hm=e5b8d98fcbc298fd78bc3ade4def5d7ab74fb4214b17cedd6b1845655a0a6d60&=&format=webp&width=543&height=800"
+						},
+						"title": "A versitile HutHunt",
+						"credit": "Horrorspy"
+					}
+				]
+			}
+		},
+		{
+			"name": "Officer Url",
+			"shortName": true,
+			"isNpc": true,
+			"source": "FineAgedWorld",
+			"level": 8,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Orc"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Cowboy Outfit"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 80
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 13,
+			"skill": {
+				"athletics": "+8",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Adrenaline Rush",
+					"entries": [
+						"Url can take the Dash action as a Bonus Action and gains 2 Temporary Hit Points. Url can use this Trait 2 times and can recharge them after a Short or Long Rest."
+					]
+				},
+				{
+					"name": "Relentless Endurance (1/day)",
+					"entries": [
+						"When Url is reduced to 0 Hit Points but not killed outright, He can drop to 1 Hit Point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Url makes two Revolver attacks"
+					]
+				},
+				{
+					"name": "Revolver",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 40/120 ft., one target. {@h}11 ({@damage 2d8 + 2}) Piercing damage."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"revolver|dmg",
+				"whip|phb"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"Url is the sheriff of Dayfall but after the awaking of Timehand he has moved to other great places to protect the innocent and capture evil"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1396344842770190466/1483154085027905688/IMG_20260316_182426.jpg?ex=69b98e61&is=69b83ce1&hm=022222efd3244601906acc84d309b32ff338cffcd203e03964cc498e205eba19&=&format=webp&width=403&height=929"
+						},
+						"title": "Url making a stance",
+						"credit": "Horrorspy"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sink Sam",
+			"shortName": "Sam",
+			"isNpc": true,
+			"source": "FineAgedWorld",
+			"level": 4,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"note": "(Gnome)"
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "3d6",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 11,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"stealth": "+2",
+				"nature": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Gnomish"
+			],
+			"cr": "1/4",
+			"gear": [
+				{
+					"item": "https://5e.tools/items.html#war%20pick_xphb",
+					"quantity": 1,
+					"displayName": "War pick"
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Sam casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 11}):"
+					],
+					"footerEntries": [
+						"At will:minor illusion",
+						"1/day:speak with animals"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"Sam has advantage on Intelligence Wisdom and Charisma saving throws against magic"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "War pick",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"G"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			]
+		},
+		{
+			"name": "Storm Titan",
+			"shortName": "Titan",
+			"source": "FineAgedWorld",
+			"level": 15,
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 + 5",
+				"average": 9
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 29,
+			"dex": 14,
+			"con": 20,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"cha": "+8",
+				"wis": "+9",
+				"con": "+9",
+				"str": "+13"
+			},
+			"skill": {
+				"arcana": "+11",
+				"athletics": "+13",
+				"religion": "+7",
+				"medicine": "+9"
+			},
+			"passive": 15,
+			"cr": "11"
+		},
+		{
+			"name": "Titan",
+			"shortName": true,
+			"group": [
+				"Warfare Unit"
+			],
+			"source": "FineAgedWorld",
+			"level": 15,
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"condition": "(natural armor)"
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 150",
+				"average": 285
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 29,
+			"dex": 14,
+			"con": 20,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"str": "+13",
+				"con": "+9",
+				"int": "+7",
+				"wis": "+9",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+11",
+				"athletics": "+17",
+				"medicine": "+13",
+				"insight": "+13",
+				"history": "+11",
+				"religion": "+11"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common,",
+				"Giant"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Mind Spell Immunity.",
+					"entries": [
+						"any spells that requires a Wisdom saving throw from the titan is automatically succeeded"
+					]
+				},
+				{
+					"name": "Spell Storing.",
+					"entries": [
+						"When a titan witnesses a spell within 120 ft of itself it will remember it for an hour, if the spell deals damage to a target they will automatically cast it with their attack, targeting the same target. Any Area of effect spells the titan casts will not harm or effect them"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shocking Punch",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d6 + 9}) bludgeoning damage and {@h}24 ({@damage 3d12 + 5}) lightning damage"
+					]
+				},
+				{
+					"name": "Thunderbolt",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 200/600 ft., one target. {@h}24 ({@damage 3d12 + 5}) lightning damage."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"familiar": true,
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"Titans are the greatest accomplishment a Wizard can dream to achieve. Like the Colossi, Titans are extremely lethal with their bare hands and immune to mind-controlling magic, but are also capable of hurling bolts of lightning over great distances. Costing  between 3300 gold and 2 gems-6070 gold, 2 dragonsteel and 1 shadowsteel",
+					"\"It should be noted that the resources needed to create a Titan are rare and expensive; due to this the decision to go to war with them is not taken lightly. On the other hand, enemies sometimes surrender at the mere sight of them...\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/mightandmagic/images/7/75/Creature_academy_Titan.jpg/revision/latest?cb=20230605172156&path-prefix=en"
+						},
+						"title": "A Titan charging up to cause an electric shock",
+						"credit": "USACHENKO ANTON"
+					}
+				]
+			}
+		}
+	]
+}
